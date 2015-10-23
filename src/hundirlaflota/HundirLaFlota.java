@@ -1,4 +1,9 @@
 package hundirlaflota;
+/*
+*
+* @author Rubén Soler
+*
+*/
 import java.util.Scanner;
 public class HundirLaFlota {
     public static void main(String[] args) {
