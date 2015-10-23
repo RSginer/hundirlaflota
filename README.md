@@ -1,5 +1,5 @@
 # hundirlaflota
-Sencillo juego de hundir la flota
+Sencillo juego de hundir la flota por consola de Java 8
 
 Cosas que faltan:
 
