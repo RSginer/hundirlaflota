@@ -17,10 +17,10 @@ public class HundirLaFlota {
         //entrada
         System.out.println("VAMOS A JUGAR A HUNDIR LA FLOTA (barcos de un solo punto)");
         System.out.println();
-        System.out.println("Introduce tus coordenadas para colocar tu barco: ");
+        System.out.print("Player 1 Introduce tus coordenadas para colocar tu barco: ");
         filaUsuario1 = sc.nextInt();
         columnaUsuario1 = sc.nextInt();
-        System.out.println("Introduce tus coordenadas para colocar tu barco: ");
+        System.out.print("Player 2 Introduce tus coordenadas para colocar tu barco: ");
         filaUsuario2 = sc.nextInt();
         columnaUsuario2 = sc.nextInt();
         //operaciones
@@ -62,8 +62,8 @@ public class HundirLaFlota {
         while (ganaUsuario1 == false && ganaUsuario2 == false) {
             System.out.println("");
             System.out.println("Usuario 1 introduce tus coordenadas para el disparo: ");
-            tiraUsuario1Columna = sc.nextInt();
             tiraUsuario1Fila = sc.nextInt();
+            tiraUsuario1Columna = sc.nextInt();
             if (tiraUsuario1Columna == columnaUsuario2 && tiraUsuario1Fila == filaUsuario2) {
                 ganaUsuario1 = true;
             } else {
@@ -71,8 +71,8 @@ public class HundirLaFlota {
                 System.out.println();
                 System.out.println("Usuario 2 introduce tus coordenadas para el disparo: ");
                 System.out.println();
-                tiraUsuario2Columna = sc.nextInt();
                 tiraUsuario2Fila = sc.nextInt();
+                tiraUsuario2Columna = sc.nextInt();
                 if (tiraUsuario2Columna == columnaUsuario1 && tiraUsuario2Fila == filaUsuario1) {
                     ganaUsuario2 = true;
                 } else {
@@ -83,10 +83,10 @@ public class HundirLaFlota {
         }
         //salida
         if (ganaUsuario1 == true) {
-            System.out.println("GANA EL USUARIO1!");
+            System.out.println("¡GANA EL USUARIO 1!");
         }
         if (ganaUsuario2 == true) {
-            System.out.println("GANA EL USUARIO2!");
+            System.out.println("¡GANA EL USUARIO 2!");
         }
     }
 }
