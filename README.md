@@ -7,3 +7,5 @@ Cosas que faltan:
 - Borrado de mapa al cambiar de usuario
 - Modo gráfico
 - Marcado de mapa al hacer "AGUA"
+
+Licencia Creative Commons: BY-NC
